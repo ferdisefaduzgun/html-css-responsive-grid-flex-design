@@ -1,0 +1,154 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    list-style: none;
+}
+
+body{
+    background-color: #0F0F0F;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #717171;
+    align-items: center;
+    padding: 0 40px;
+}
+
+
+header i{
+    font-size:24px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+
+.header-left h3{
+    font-size: 24px;
+    color: white;
+    margin-left: 20px;
+}
+
+.header-center{
+    display: flex;
+    align-items: center;
+}
+
+.header-center input{
+    background-color: #0F0F0F;
+    border: none;
+    outline: none;
+}
+
+.header-search{
+    border: 1px solid #717171;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin-right: 12px;
+}
+
+.header-search .bi-search{
+    font-size: 18px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.header-center .bi-mic{
+    background-color: #909090;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.sidebar{
+    height: 100vh;
+    border-right: 1px solid #717171;
+    width: 100px;
+    padding-top:20px ;
+}
+.sidebar-item a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar i{
+    font-size: 20px;
+}
+
+.sidebar-item span{
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.sidebar-item{
+    margin-bottom: 20px;
+}
+
+.sidebar-item a:hover{
+    color: #FF0000;
+}
+
+.sidebar-item a{
+    transition: all 0.3s ease;
+}
+
+.content{
+    display: flex;
+}
+
+.video-image{
+    position: relative;
+    display: flex;
+}
+
+.video-image img{
+    width: 100%;
+}
+
+.video-image span{
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    font-size: 15px;
+    padding: 2px;
+    background-color: #0F0F0F;
+}
+
+.video-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+.video-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.videos{
+    margin: 20px;
+    
+}
